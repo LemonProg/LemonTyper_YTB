@@ -1,7 +1,7 @@
 {
   "name": "lemontyper",
   "version": "1.0.0",
-  "start": "app.js",
+  "start": "",
   "description": "",
   "main": "index.js",
   "scripts": {
