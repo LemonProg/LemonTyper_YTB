@@ -17,7 +17,7 @@ videoField.addEventListener('change', () => {
     link = videoField.value;
     id = link.split('v=')[1];
 
-    fetch("http://127.0.0.1:3000/subs", {
+    fetch("https://lemon-typer.vercel.app:3000/subs", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
