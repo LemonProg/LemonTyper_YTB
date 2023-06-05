@@ -1,0 +1,48 @@
+html {
+    background-color: #262932;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    z-index: 1;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+    font-size: 20px;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+#typer-div {
+    position: relative;
+}
+
+#typer {
+    z-index: 2;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 1000px;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #10b6d0;
+    border: none;
+    caret-color: transparent;
+}
+#typer:focus {
+    outline: none;
+}
